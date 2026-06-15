@@ -22,6 +22,15 @@ longDescription: "One emoji triggers multiple voices, sent randomly 😘",
 
     // --- EMOJI WITH MULTIPLE RANDOM AUDIO LINKS ---
     const emojiAudioMap = {
+  "🥱": ["https://files.catbox.moe/9pou40.mp3","https://files.catbox.moe/60cwcg.mp3"],
+
+  "i love you": ["https://files.catbox.moe/gu9f38.mp3"],
+  "I love You": ["https://files.catbox.moe/gu9f38.mp3"],
+  "love you": ["https://files.catbox.moe/gu9f38.mp3"],
+
+  "😁": ["https://files.catbox.moe/60cwcg.mp3"],
+  // বাকি সব আগের মতো থাকবে
+};
       "🥱": ["https://files.catbox.moe/9pou40.mp3","https://files.catbox.moe/60cwcg.mp3"],
       "😁": ["https://files.catbox.moe/60cwcg.mp3"],
       "😌": ["https://files.catbox.moe/epqwbx.mp3"],
