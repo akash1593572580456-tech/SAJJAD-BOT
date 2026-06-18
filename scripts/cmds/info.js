@@ -18,7 +18,7 @@ module.exports = {
 
       // 👑 OWNER INFO
       const ownerInfo = {
-        name: "TIGER MATE TONMOY",
+        name: "TIGER MATE SAJJAD",
         gender: "MALE",
         nick: "LEADER VAI ⚡",
         power: "ROOT ACCESS",
@@ -26,7 +26,7 @@ module.exports = {
       };
 
       // 🎥 VIDEO LINK
-      const videoURL = "https://files.catbox.moe/w4x1lt.mp4";
+      const videoURL = "https://files.catbox.moe/5k5b80.mp4";
 
       const tmpFolder = path.join(__dirname, "tmp");
       if (!fs.existsSync(tmpFolder)) {
