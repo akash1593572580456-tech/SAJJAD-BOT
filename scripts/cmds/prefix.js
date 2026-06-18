@@ -108,7 +108,7 @@ module.exports = {
 ⏳ Uptime: ${formatUptime(uptimeMs)}
 👤 Your ID: ${event.senderID}
 
-👑 Owner: TONMOY`,
+👑 Owner: SAJJAD`,
 
         attachment: attachment || undefined
       });
