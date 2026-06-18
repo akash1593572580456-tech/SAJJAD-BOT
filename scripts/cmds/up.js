@@ -10,7 +10,7 @@ config: {
 name: "up",
 aliases: ["uptime", "status"],
 version: "22.0.0",
-author: "Tonmoy",
+author: "Md Sajjad",
 countDown: 5,
 role: 0,
 category: "system",
@@ -60,7 +60,7 @@ userName = "Developer";
 
 const imgUrl = "https://i.imgur.com/xHpbI1i.jpeg";
 const userImgUrl = `https://graph.facebook.com/${senderID}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
-const cachePath = path.join(__dirname, "cache", `up_tonmoy_final_${Date.now()}.png`);
+const cachePath = path.join(__dirname, "cache", `up_Md Sajjad_final_${Date.now()}.png`);
 
 try {
 if (!fs.existsSync(path.join(__dirname, "cache"))) fs.ensureDirSync(path.join(__dirname, "cache"));
@@ -136,7 +136,7 @@ ctx.fillText("● SYSTEM STATUS: ACTIVE", centerX, canvas.height - 65);
 
 ctx.font = "italic bold 18px Arial";
 ctx.fillStyle = "#FFD700";
-ctx.fillText("Developed by: Tonmoy", centerX, canvas.height - 95);
+ctx.fillText("Developed by: Md Sajjad", centerX, canvas.height - 95);
 
 // Bot Name & Date
 ctx.textAlign = "left";
@@ -144,7 +144,7 @@ ctx.font = "bold 30px Arial";
 ctx.shadowColor = "#0000ff";
 ctx.shadowBlur = 15;
 ctx.fillStyle = "#33ccff";
-ctx.fillText("[TONMOY-BOT]", 199, 128);
+ctx.fillText("[Md Sajjad-BOT]", 199, 128);
 
 const dateX = centerX + 82;
 const dateY = 120;
